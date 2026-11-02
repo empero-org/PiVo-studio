@@ -231,7 +231,7 @@ no external runtime.
 Checked against the Python ONNX Runtime reference (`tests/gen_reference.py` +
 `tests/numerics.rs`, max |Δ|):
 
-| Stage | max |Δ| |
+| Stage | max \|Δ\| |
 | --- | --- |
 | encoder | 1.8e-6 |
 | log_durations | 3.2e-6 |
