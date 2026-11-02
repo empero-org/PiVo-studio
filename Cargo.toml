@@ -1,0 +1,36 @@
+[package]
+name = "pivo-studio"
+version = "1.0.0"
+edition = "2021"
+description = "PiVo Studio: local, streaming text-to-speech for PiVo models: Web Studio GUI, OpenAI-compatible server, CLI and C ABI"
+license = "Apache-2.0 AND BSD-3-Clause"
+authors = ["Leon Lehmann <lehmann@empero.org>", "Empero Research <research@empero.org>"]
+readme = "README.md"
+repository = "https://github.com/empero-org/PiVo-studio"
+homepage = "https://empero.org"
+documentation = "https://github.com/empero-org/PiVo-studio#readme"
+keywords = ["tts", "text-to-speech", "speech", "onnx", "streaming"]
+categories = ["multimedia::audio", "command-line-utilities", "web-programming::http-server"]
+
+[lib]
+# The library keeps the `pivo_runner` name so `libpivo_runner.{a,so}` and the
+# C ABI (include/pivo_ffi.h) stay stable for existing mobile integrations.
+name = "pivo_runner"
+crate-type = ["rlib", "cdylib", "staticlib"]
+
+[[bin]]
+name = "pivo-studio"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.6.1", features = ["derive", "env"] }
+regex = "1.12.4"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.150"
+sha2 = "0.10.9"
+thiserror = "2.0.18"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1

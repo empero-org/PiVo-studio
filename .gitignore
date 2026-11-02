@@ -1,0 +1,5 @@
+/target
+*.wav
+*.pcm
+*.pivomodel
+/tmp
