@@ -211,7 +211,7 @@ fn resolve_model(arg: ModelArg) -> Result<PathBuf, String> {
            pivo-studio studio --model path/to/PiVo-1.4M\n  \
            export PIVO_MODEL=path/to/PiVo-1.4M\n\n\
          Or put the model directory (or a .pivomodel bundle) in ./models/.\n\
-         Model weights: https://huggingface.co/empero-org/PiVo-1.4M"
+         Model weights: https://huggingface.co/empero-ai/PiVo-1.4M"
             .to_string()
     })
 }

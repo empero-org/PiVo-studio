@@ -12,7 +12,7 @@ auto-vectorizes for AVX2/NEON).
 ## Quick start
 
 You need a [Rust toolchain](https://rustup.rs) and the PiVo model weights
-([`empero-org/PiVo-1.4M`](https://huggingface.co/empero-org/PiVo-1.4M) on
+([`empero-ai/PiVo-1.4M`](https://huggingface.co/empero-ai/PiVo-1.4M) on
 Hugging Face).
 
 ```bash
@@ -20,8 +20,8 @@ Hugging Face).
 cargo build --release
 
 # 2. Get the model (any of these works)
-git clone https://huggingface.co/empero-org/PiVo-1.4M models/PiVo-1.4M
-#   …or: pivo download --repo empero-org/PiVo-1.4M --output models/PiVo-1.4M
+git clone https://huggingface.co/empero-ai/PiVo-1.4M models/PiVo-1.4M
+#   …or: pivo download --repo empero-ai/PiVo-1.4M --output models/PiVo-1.4M
 
 # 3. Open the Studio in your browser
 ./target/release/pivo-studio studio
