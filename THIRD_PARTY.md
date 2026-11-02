@@ -1,6 +1,6 @@
 # Third-party materials
 
-PiVo's original implementation and acoustic weights use Apache-2.0 (`LICENSE`). The model repository includes the trained PiVo acoustic checkpoint, converted upstream FARGAN weights, and their ONNX graphs. The GitHub repository contains inference and serving code; model files are obtained separately.
+PiVo Studio's original implementation uses the Empero PiVo Attribution License 1.0 (`LICENSE`), which requires user-visible attribution ("Made with Empero PiVo" / "Powered by Empero PiVo"), direct credit to https://empero.org for commercial use, and a separate commercial license for entities with annual revenue above US$20M. The PiVo acoustic weights are Apache-2.0 and are distributed separately in the model repository. The model repository includes the trained PiVo acoustic checkpoint, converted upstream FARGAN weights, and their ONNX graphs. The GitHub repository contains inference and serving code; model files are obtained separately.
 
 ## FARGAN and Opus
 

@@ -284,6 +284,15 @@ pivo-studio/
 
 ## License
 
-Engine code: Apache-2.0 (matching the PiVo acoustic weights).
+Engine code: **Empero PiVo Attribution License 1.0** (`LICENSE`).
+
+- **All uses and derivatives** must carry prominent, user-visible attribution:
+  "Made with Empero PiVo" or "Powered by Empero PiVo".
+- **Commercial use** must additionally credit Empero directly and link
+  to https://empero.org.
+- **Commercial use by entities with annual revenue above US$20M** requires a
+  separate commercial license — contact research@empero.org.
+
+The PiVo model weights are Apache-2.0 and distributed separately.
 FARGAN-derived vocoder code/weights: Xiph/Opus BSD.
-CMUdict: CMU license. See `LICENSE`, `NOTICE`, `THIRD_PARTY.md`, `LICENSES/`.
+CMUdict: CMU license. See `NOTICE`, `THIRD_PARTY.md`, `LICENSES/`.

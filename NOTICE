@@ -1,9 +1,32 @@
-PiVo-1.4M
-Copyright 2026 Empero Research.
+PiVo Studio
+Copyright (c) 2026 Empero Research.
 Author: Leon Lehmann <lehmann@empero.org>.
 Contact: Empero Research <research@empero.org>.
-Original code and PiVo acoustic weights: Apache License 2.0.
-Includes FARGAN-derived material and converted upstream weights under the retained Xiph/Opus BSD notice.
-Includes CMU pronunciation dictionary data under its retained permissive notice.
-Neuroblast by Mariusz Kurman inspired the acoustic design; no Neuroblast weights are used.
-See THIRD_PARTY.md and LICENSES/ for the applicable third-party notices.
+
+PiVo Studio engine code: Empero PiVo Attribution License 1.0 (see LICENSE).
+The PiVo acoustic weights are Apache License 2.0, distributed separately.
+
+Attribution required by this license:
+
+  - Every project that uses the Software, or any derivative of it, must
+    carry a prominent, user-visible notice reading
+    "Powered by Empero PiVo" or "Made with Empero PiVo".
+
+  - For commercial use, that notice must name Empero directly and
+    include a link to https://empero.org (or the text
+    "https://empero.org" where links are not possible).
+
+  - Commercial use by an entity (including affiliates) with annual
+    revenue above US$20,000,000 requires a separate commercial license:
+    research@empero.org.
+
+Includes FARGAN-derived material and converted upstream weights under
+the retained Xiph/Opus BSD notice.
+Includes CMU pronunciation dictionary data under its retained
+permissive notice.
+Includes fonts under the SIL Open Font License 1.1 (see LICENSES/).
+Neuroblast by Mariusz Kurman inspired the acoustic design; no
+Neuroblast weights are used.
+
+See THIRD_PARTY.md and LICENSES/ for the applicable third-party
+notices.
